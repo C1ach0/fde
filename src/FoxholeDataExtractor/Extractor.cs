@@ -37,17 +37,36 @@ public sealed class Extractor
             .Select(g => g.First())
             .ToList();
 
-        var files = packages
+        var configuredFiles = packages
             .Where(f => MatchesConfiguredPath(f.Path))
+            .ToList();
+
+        // recipes.json must not depend on the catalog extraction prefixes. A catalog config
+        // often selects ItemPickups/Data only, which means production structures are absent
+        // from rawPackages and RecipeBuilder can only see one ItemDynamicData fallback recipe.
+        // Always add every structure blueprint so every ConversionEntries occurrence (and thus
+        // every production location/modification) is available to RecipeBuilder.
+        var recipeFiles = packages
+            .Where(f => IsRecipePackage(f.Path))
+            .ToList();
+
+        var files = configuredFiles
+            .Concat(recipeFiles)
+            .GroupBy(f => NormalizePath(f.Path), StringComparer.OrdinalIgnoreCase)
+            .Select(g => g.First())
             .OrderBy(f => f.Path, StringComparer.OrdinalIgnoreCase)
             .ToList();
 
         Console.WriteLine($"UE packages visible: {packages.Count}");
-        Console.WriteLine($"Selected {files.Count} package files from configured prefixes.");
-        if (files.Count == 0)
+        Console.WriteLine($"Configured catalog packages: {configuredFiles.Count}");
+        Console.WriteLine($"Production/structure packages added for recipes: {recipeFiles.Count}");
+        Console.WriteLine($"Selected {files.Count} unique package files total.");
+        if (configuredFiles.Count == 0)
         {
             Console.WriteLine("WARN: configured prefixes matched 0 packages. Applying Foxhole/FIR fallback (Blueprints + Data).");
-            files = packages.Where(f => IsFoxholeDataPackage(f.Path))
+            files = packages.Where(f => IsFoxholeDataPackage(f.Path) || IsRecipePackage(f.Path))
+                .GroupBy(f => NormalizePath(f.Path), StringComparer.OrdinalIgnoreCase)
+                .Select(g => g.First())
                 .OrderBy(f => f.Path, StringComparer.OrdinalIgnoreCase).ToList();
             Console.WriteLine($"Fallback selected {files.Count} package files.");
         }
@@ -75,6 +94,10 @@ public sealed class Extractor
         var items = new CatalogBuilder(rawPackages).Build();
         Console.WriteLine($"FIR-style catalog entries: {items.Count}");
 
+        Console.WriteLine("Building recipes (ConversionEntries first, ItemDynamicData only as fallback)...");
+        var recipes = new RecipeBuilder(rawPackages).Build(items);
+        Console.WriteLine($"Recipe outputs: {recipes.Count}");
+
         IconStats iconStats = new();
         if (_config.ExportIcons)
         {
@@ -84,6 +107,7 @@ public sealed class Extractor
 
         var document = new CatalogDocument(DateTimeOffset.UtcNow, buildId, items);
         WriteJson(Path.Combine(_output, "catalog.json"), items);
+        WriteJson(Path.Combine(_output, "recipes.json"), recipes);
         WriteJson(Path.Combine(_output, "version.json"), new VersionDocument(
             DateTimeOffset.UtcNow, buildId, _gameDirectory, exported, items.Count,
             iconStats.Original, iconStats.Clean, iconStats.MissingOriginal, iconStats.MissingClean));
@@ -122,6 +146,18 @@ public sealed class Extractor
         var prefixContent = AfterContent(prefix);
         return pathContent != null && prefixContent != null &&
                pathContent.StartsWith(prefixContent, StringComparison.OrdinalIgnoreCase);
+    }
+
+
+    private static bool IsRecipePackage(string rawPath)
+    {
+        var path = "/" + NormalizePath(rawPath).TrimStart('/');
+
+        // ConversionEntries used by facilities/refineries/factories are serialized on
+        // structure blueprints (including modification data nested below them). Keep this
+        // independent from IncludePrefixes so recipes.json always sees all production sites.
+        return path.Contains("/Content/Blueprints/Structures/", StringComparison.OrdinalIgnoreCase) ||
+               path.Contains("/Game/Blueprints/Structures/", StringComparison.OrdinalIgnoreCase);
     }
 
     private static bool IsFoxholeDataPackage(string rawPath)
