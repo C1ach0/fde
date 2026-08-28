@@ -6,6 +6,12 @@ It automatically installs or updates Foxhole through SteamCMD, reads the game's 
 
 FDE can also load optional third-party PAK files placed manually in `mods/`, allowing alternative assets such as clean UI icons to be exported alongside the original game assets.
 
+## Disclaimer
+
+It is recommended not to run Foxhole while an extraction is in progress to avoid potential file access conflicts or inconsistent results.
+
+FDE only reads the game's PAK files stored on disk.
+
 ## Features
 
 - Automatically installs and updates Foxhole using SteamCMD
