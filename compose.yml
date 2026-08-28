@@ -1,0 +1,40 @@
+services:
+  extractor:
+    build:
+      context: .
+    image: foxhole-data-extractor:latest
+    restart: "no"
+    env_file:
+      - .env
+    stdin_open: true
+    tty: true
+    volumes:
+      - foxhole_game:/game
+      - steam_config:/opt/steamcmd/config
+      - steam_home:/root/.steam
+      - ./mods:/mods:ro
+      - ./output:/output
+      - ./state:/state
+    command: run
+
+  watcher:
+    profiles: ["watcher"]
+    build:
+      context: .
+    image: foxhole-data-extractor:latest
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - foxhole_game:/game
+      - steam_config:/opt/steamcmd/config
+      - steam_home:/root/.steam
+      - ./mods:/mods:ro
+      - ./output:/output
+      - ./state:/state
+    command: daemon
+
+volumes:
+  foxhole_game:
+  steam_config:
+  steam_home:

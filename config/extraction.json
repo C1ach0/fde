@@ -1,0 +1,9 @@
+{
+  "includePrefixes": [
+    "War/Content/Blueprints/",
+    "War/Content/Data/"
+  ],
+  "includeExtensions": ["uasset"],
+  "writeRawJson": true,
+  "exportIcons": true
+}
