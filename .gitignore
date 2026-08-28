@@ -1,9 +1,29 @@
+# Environment / credentials
 .env
-output/*
-!output/.gitkeep
+
+# Foxhole installation (if using a local bind mount)
+/game/
+game/
+
+# Runtime state
 state/*
 !state/.gitkeep
+
+# Third-party PAKs
 mods/*
 !mods/.gitkeep
-bin/
-obj/
+
+# Raw extracted Unreal data
+output/raw/*
+!output/raw/.gitkeep
+
+# --------------------------------------------------
+# Public generated dataset
+# --------------------------------------------------
+
+# These files are intentionally tracked:
+# output/catalog.json
+# output/version.json
+# output/changes.json
+# output/icons/original/**
+# output/icons/clean/**
