@@ -11,19 +11,22 @@ public sealed class Extractor
     private readonly ExtractionConfig _config;
     private readonly string _output;
     private readonly string _gameDirectory;
+    private readonly bool _isMod;
 
-    public Extractor(DefaultFileProvider provider, DefaultFileProvider? modsProvider, ExtractionConfig config, string output, string gameDirectory)
+    public Extractor(DefaultFileProvider provider, DefaultFileProvider? modsProvider, ExtractionConfig config, string output, string gameDirectory, bool isMod = false)
     {
         _provider = provider;
         _modsProvider = modsProvider;
         _config = config;
         _output = output;
         _gameDirectory = gameDirectory;
+        _isMod = isMod;
     }
 
     public CatalogDocument Run(string? buildId)
     {
-        Directory.CreateDirectory(Path.Combine(_output, "raw"));
+        Directory.CreateDirectory(_output);
+        if (_config.Raw.Enabled) Directory.CreateDirectory(Path.Combine(_output, "raw"));
         PrintProviderDiagnostics("game", _provider);
         if (_modsProvider != null) PrintProviderDiagnostics("mods", _modsProvider);
 
@@ -37,8 +40,9 @@ public sealed class Extractor
             .Select(g => g.First())
             .ToList();
 
-        var configuredFiles = packages
-            .Where(f => MatchesConfiguredPath(f.Path))
+        var configuredFiles = (_isMod
+                ? packages
+                : packages.Where(f => MatchesConfiguredPath(f.Path)))
             .ToList();
 
         // recipes.json must not depend on the catalog extraction prefixes. A catalog config
@@ -50,8 +54,13 @@ public sealed class Extractor
             .Where(f => IsRecipePackage(f.Path))
             .ToList();
 
+        var mapDataFiles = packages.Where(f =>
+                NormalizePath(f.Path).Contains("BPMapList", StringComparison.OrdinalIgnoreCase))
+            .ToList();
+
         var files = configuredFiles
             .Concat(recipeFiles)
+            .Concat(mapDataFiles)
             .GroupBy(f => NormalizePath(f.Path), StringComparer.OrdinalIgnoreCase)
             .Select(g => g.First())
             .OrderBy(f => f.Path, StringComparer.OrdinalIgnoreCase)
@@ -64,7 +73,7 @@ public sealed class Extractor
         if (configuredFiles.Count == 0)
         {
             Console.WriteLine("WARN: configured prefixes matched 0 packages. Applying Foxhole/FIR fallback (Blueprints + Data).");
-            files = packages.Where(f => IsFoxholeDataPackage(f.Path) || IsRecipePackage(f.Path))
+            files = packages.Where(f => IsFoxholeDataPackage(f.Path) || IsRecipePackage(f.Path) || NormalizePath(f.Path).Contains("BPMapList", StringComparison.OrdinalIgnoreCase))
                 .GroupBy(f => NormalizePath(f.Path), StringComparer.OrdinalIgnoreCase)
                 .Select(g => g.First())
                 .OrderBy(f => f.Path, StringComparer.OrdinalIgnoreCase).ToList();
@@ -79,7 +88,7 @@ public sealed class Extractor
                 var token = JToken.FromObject(exports, JsonSerializer.Create(JsonSettings()));
                 var packagePath = PackagePath(file.Path);
                 rawPackages[packagePath] = token;
-                if (_config.WriteRawJson) WriteRaw(packagePath, token);
+                if (_config.Raw.Enabled) WriteRaw(packagePath, token);
                 exported++;
             }
             catch (Exception ex)
@@ -99,15 +108,28 @@ public sealed class Extractor
         Console.WriteLine($"Recipe outputs: {recipes.Count}");
 
         IconStats iconStats = new();
-        if (_config.ExportIcons)
+        var resources = new ResourceExporter(_provider, _output, _config.Assets);
+        resources.ExportCatalogTextures(items);
+        // Mods often contain texture replacements without catalogue objects. Export texture
+        // references directly from their package JSON as well, preserving only useful resources.
+        if (_isMod)
+            resources.ExportReferencedTextures(rawPackages.Values);
+
+        // Heavy assets are opt-in. This also runs for each mod provider so mod-owned
+        // audio/meshes stay under output/mods/<ModName>/assets instead of being mixed.
+        new AssetExporter(_provider, _output, _config.Assets).Export();
+
+        var maps = new List<JObject>();
+        if (_config.Maps.Enabled)
         {
-            iconStats = new IconExporter(_provider, _modsProvider, _output).Export(items);
-            Console.WriteLine($"Icons: original={iconStats.Original}, clean={iconStats.Clean}, missing-original={iconStats.MissingOriginal}, missing-clean={iconStats.MissingClean}");
+            Console.WriteLine("Building map/hex metadata, map images and region Voronoi cells...");
+            maps = new MapBuilder(_provider, rawPackages, _output, _config.Assets.Maps, _config.Maps.CalculateRegions, _config.Maps.UseWarApiRegions, _config.Maps.WarApiBaseUrl).Build();
         }
 
         var document = new CatalogDocument(DateTimeOffset.UtcNow, buildId, items);
         WriteJson(Path.Combine(_output, "catalog.json"), items);
         WriteJson(Path.Combine(_output, "recipes.json"), recipes);
+        if (!_isMod) WriteJson(Path.Combine(_output, "maps.json"), maps);
         WriteJson(Path.Combine(_output, "version.json"), new VersionDocument(
             DateTimeOffset.UtcNow, buildId, _gameDirectory, exported, items.Count,
             iconStats.Original, iconStats.Clean, iconStats.MissingOriginal, iconStats.MissingClean));
@@ -118,9 +140,7 @@ public sealed class Extractor
     {
         var path = NormalizePath(rawPath);
 
-        var extensionOk = _config.IncludeExtensions.Length == 0 ||
-            _config.IncludeExtensions.Any(ext =>
-                path.EndsWith("." + ext.TrimStart('.'), StringComparison.OrdinalIgnoreCase));
+        var extensionOk = true;
 
         // IsUePackage is authoritative. Some provider entries do not expose the extension in
         // exactly the same form as FModel, so an extension mismatch must not discard a package.
@@ -130,8 +150,14 @@ public sealed class Extractor
             // Continue with prefix matching anyway; the caller already filtered IsUePackage.
         }
 
-        if (_config.IncludePrefixes.Length == 0) return true;
-        return _config.IncludePrefixes.Any(prefix => PrefixMatches(path, prefix));
+        if (_config.Catalog.IncludePrefixes.Length == 0) return true;
+        if (_config.Catalog.IncludePrefixes.Any(prefix => PrefixMatches(path, prefix))) return true;
+
+        // CUE4Parse mount roots vary between Foxhole PAK generations. The configured paths are
+        // semantic roots, so accept Blueprint/Data segments even when War/Content is stripped.
+        return path.Contains("Blueprints/", StringComparison.OrdinalIgnoreCase) ||
+               path.Contains("/Data/", StringComparison.OrdinalIgnoreCase) ||
+               path.StartsWith("Data/", StringComparison.OrdinalIgnoreCase);
     }
 
     private static bool PrefixMatches(string rawPath, string rawPrefix)
@@ -163,7 +189,10 @@ public sealed class Extractor
     private static bool IsFoxholeDataPackage(string rawPath)
     {
         var path = "/" + NormalizePath(rawPath).TrimStart('/');
-        return path.Contains("/Content/Blueprints/", StringComparison.OrdinalIgnoreCase) ||
+        return path.Contains("/Blueprints/", StringComparison.OrdinalIgnoreCase) ||
+               path.StartsWith("/Blueprints/", StringComparison.OrdinalIgnoreCase) ||
+               path.Contains("/Content/Blueprints/", StringComparison.OrdinalIgnoreCase) ||
+               path.Contains("/Data/", StringComparison.OrdinalIgnoreCase) ||
                path.Contains("/Content/Data/", StringComparison.OrdinalIgnoreCase) ||
                path.Contains("/Game/Blueprints/", StringComparison.OrdinalIgnoreCase) ||
                path.Contains("/Game/Data/", StringComparison.OrdinalIgnoreCase);

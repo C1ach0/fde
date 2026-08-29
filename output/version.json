@@ -1,11 +1,11 @@
 {
-  "GeneratedAt": "2026-08-28T14:17:45.7195543+00:00",
+  "GeneratedAt": "2026-08-29T15:02:40.1487343+00:00",
   "SteamBuildId": "24842742",
   "GameDirectory": "/game",
-  "ExportedPackages": 4172,
+  "ExportedPackages": 4201,
   "CatalogEntries": 919,
-  "OriginalIcons": 760,
-  "CleanIcons": 686,
+  "OriginalIcons": 0,
+  "CleanIcons": 0,
   "MissingOriginalIcons": 0,
-  "MissingCleanIcons": 74
+  "MissingCleanIcons": 0
 }

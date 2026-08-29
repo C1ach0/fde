@@ -36,10 +36,26 @@ public static class Program
             var config = JsonConvert.DeserializeObject<ExtractionConfig>(File.ReadAllText(configPath))
                          ?? throw new InvalidOperationException("Invalid extraction config");
             var provider = GameProvider.Create(gameDir);
-            var modsProvider = GameProvider.CreateOptionalMods(modsDir);
-            var result = new Extractor(provider, modsProvider, config, Path.GetFullPath(output), Path.GetFullPath(gameDir))
+            var result = new Extractor(provider, null, config, Path.GetFullPath(output), Path.GetFullPath(gameDir), isMod: false)
                 .Run(Arg(args, "--build-id"));
-            Console.WriteLine($"Done: {result.Items.Count} catalogue entries.");
+
+            // Mods are intentionally independent datasets. A mod can override the same object
+            // path as another mod, so merging all PAKs in one provider would lose provenance.
+            var mods = config.Mods.Enabled ? GameProvider.CreateMods(modsDir) : new List<GameProvider.MountedMod>();
+            try
+            {
+                foreach (var mod in mods)
+                {
+                    var modOutput = Path.Combine(Path.GetFullPath(output), "mods", SafeDirectoryName(mod.Name));
+                    Console.WriteLine($"Extracting mod '{mod.Name}' -> {modOutput}");
+                    var modConfig = CreateModConfig(config);
+                    new Extractor(mod.Provider, null, modConfig, modOutput, mod.Name, isMod: true)
+                        .Run(Arg(args, "--build-id"));
+                }
+            }
+            finally { foreach (var mod in mods) mod.Dispose(); }
+
+            Console.WriteLine($"Done: {result.Items.Count} catalogue entries; {mods.Count} mods extracted separately.");
             return 0;
         }
         catch (Exception ex)
@@ -68,6 +84,21 @@ public static class Program
         Extractor.WriteJson(path, result);
         Console.WriteLine($"Added {added.Length}, modified {modified.Length}, removed {removed.Length}");
         return 0;
+    }
+
+    private static ExtractionConfig CreateModConfig(ExtractionConfig source) => new()
+    {
+        Catalog = new CatalogConfig { IncludePrefixes = source.Catalog.IncludePrefixes.ToArray() },
+        Raw = new RawConfig { Enabled = source.Mods.WriteRawJson },
+        Assets = new AssetsConfig { Icons = source.Assets.Icons, Maps = source.Assets.Maps, Audio = source.Assets.Audio, Meshes = source.Assets.Meshes },
+        Maps = new MapsConfig { Enabled = false, CalculateRegions = false, UseWarApiRegions = false, WarApiBaseUrl = source.Maps.WarApiBaseUrl },
+        Mods = new ModsConfig { Enabled = false, WriteRawJson = false }
+    };
+
+    private static string SafeDirectoryName(string value)
+    {
+        foreach (var c in Path.GetInvalidFileNameChars()) value = value.Replace(c, '_');
+        return value;
     }
 
     private static string? Arg(string[] args, string name)

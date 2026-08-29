@@ -19,7 +19,6 @@ RUN dpkg --add-architecture i386 \
     && /opt/steamcmd/steamcmd.sh +quit
 WORKDIR /app
 COPY --from=build /publish/ /app/
-COPY config/ /app/config/
 COPY scripts/entrypoint.sh /app/entrypoint.sh
 RUN chmod +x /app/entrypoint.sh
 ENV STEAMCMD=/opt/steamcmd/steamcmd.sh \

@@ -86,6 +86,63 @@ public static class GameProvider
         }
     }
 
+    public sealed class MountedMod : IDisposable
+    {
+        public string Name { get; }
+        public DefaultFileProvider Provider { get; }
+        private readonly string _stagingDirectory;
+        internal MountedMod(string name, DefaultFileProvider provider, string stagingDirectory)
+        { Name = name; Provider = provider; _stagingDirectory = stagingDirectory; }
+        public void Dispose()
+        {
+            try { Directory.Delete(_stagingDirectory, true); } catch { }
+        }
+    }
+
+    /// <summary>Mount every mod PAK independently. This prevents one mod from overriding another
+    /// in a merged provider and lets Extractor write output/mods/&lt;ModName&gt;/...</summary>
+    public static List<MountedMod> CreateMods(string modsDirectory)
+    {
+        var result = new List<MountedMod>();
+        if (!Directory.Exists(modsDirectory)) return result;
+        foreach (var pak in Directory.EnumerateFiles(modsDirectory, "*.pak", SearchOption.TopDirectoryOnly).OrderBy(x => x, StringComparer.OrdinalIgnoreCase))
+        {
+            var name = Path.GetFileNameWithoutExtension(pak);
+            var staging = Path.Combine(Path.GetTempPath(), "foxhole-extractor-mods", Guid.NewGuid().ToString("N"));
+            Directory.CreateDirectory(staging);
+            var stagedPak = Path.Combine(staging, Path.GetFileName(pak));
+            try { File.CreateSymbolicLink(stagedPak, Path.GetFullPath(pak)); }
+            catch { File.Copy(pak, stagedPak); }
+            result.Add(new MountedMod(name, CreateFromPakDirectory("mod:" + name, staging), staging));
+        }
+        return result;
+    }
+
+    public static DefaultFileProvider CreateSinglePak(string pakPath, out string stagingDirectory)
+    {
+        if (!File.Exists(pakPath)) throw new FileNotFoundException("Mod PAK not found", pakPath);
+        stagingDirectory = Path.Combine(Path.GetTempPath(), "foxhole-extractor-" + Guid.NewGuid().ToString("N"));
+        Directory.CreateDirectory(stagingDirectory);
+        var target = Path.Combine(stagingDirectory, Path.GetFileName(pakPath));
+        try
+        {
+            File.CreateSymbolicLink(target, Path.GetFullPath(pakPath));
+        }
+        catch
+        {
+            File.Copy(pakPath, target, overwrite: true);
+        }
+        PrintPhysicalPaks(Path.GetFileNameWithoutExtension(pakPath), stagingDirectory);
+        return CreateFromPakDirectory(Path.GetFileNameWithoutExtension(pakPath), stagingDirectory);
+    }
+
+    public static IReadOnlyList<string> FindModPaks(string modsDirectory)
+    {
+        if (!Directory.Exists(modsDirectory)) return Array.Empty<string>();
+        return Directory.EnumerateFiles(modsDirectory, "*.pak", SearchOption.TopDirectoryOnly)
+            .OrderBy(x => x, StringComparer.OrdinalIgnoreCase).ToList();
+    }
+
     public static string ResolvePakDirectory(string gameDirectory)
     {
         var candidates = new[]

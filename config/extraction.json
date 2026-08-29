@@ -1,9 +1,27 @@
 {
-  "includePrefixes": [
-    "War/Content/Blueprints/",
-    "War/Content/Data/"
-  ],
-  "includeExtensions": ["uasset"],
-  "writeRawJson": true,
-  "exportIcons": true
+  "catalog": {
+    "includePrefixes": [
+      "War/Content/Blueprints/",
+      "War/Content/Data/"
+    ]
+  },
+  "raw": {
+    "enabled": false
+  },
+  "assets": {
+    "icons": true,
+    "maps": true,
+    "audio": false,
+    "meshes": false
+  },
+  "maps": {
+    "enabled": true,
+    "calculateRegions": true,
+    "useWarApiRegions": true,
+    "warApiBaseUrl": "https://war-service-live.foxholeservices.com/api/worldconquest"
+  },
+  "mods": {
+    "enabled": true,
+    "writeRawJson": false
+  }
 }

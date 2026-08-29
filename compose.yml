@@ -12,6 +12,7 @@ services:
       - foxhole_game:/game
       - steam_config:/opt/steamcmd/config
       - steam_home:/root/.steam
+      - ./config/extraction.json:/app/config/extraction.json:ro
       - ./mods:/mods:ro
       - ./output:/output
       - ./state:/state
@@ -29,6 +30,7 @@ services:
       - foxhole_game:/game
       - steam_config:/opt/steamcmd/config
       - steam_home:/root/.steam
+      - ./config/extraction.json:/app/config/extraction.json:ro
       - ./mods:/mods:ro
       - ./output:/output
       - ./state:/state
