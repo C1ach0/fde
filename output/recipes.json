@@ -799,6 +799,457 @@
       }
     }
   ],
+  "AircraftBomberC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::AircraftAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::AircraftAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[7]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 60,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 65,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 25,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 40,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 12,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials11",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "AircraftBomberC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 14400,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "AircraftBomberW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::AircraftAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::AircraftAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[8]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 60,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 65,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 25,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 40,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 12,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials11",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "AircraftBomberW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 14400,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "AircraftDiveC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::AircraftAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::AircraftAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[3]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 40,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 85,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 175,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 50,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 4,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "AircraftDiveC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 3600,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "AircraftFighter2C": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::AircraftAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::AircraftAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[9]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 40,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 200,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 50,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 2,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "AircraftFighter2C",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 3600,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "AircraftFighterC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::AircraftAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::AircraftAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[0]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 40,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 50,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 50,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 2,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "AircraftFighterC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 3600,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "AircraftFighterW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::AircraftAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::AircraftAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[1]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 40,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 50,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 50,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 2,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "AircraftFighterW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 3600,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "AircraftParatrooperC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::AircraftAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::AircraftAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[5]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 5,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 6,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials11",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "AircraftParatrooperC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 7200,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "AircraftParatrooperW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::AircraftAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::AircraftAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[6]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 5,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 6,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials11",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "AircraftParatrooperW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 7200,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
   "AircraftPartLargeEngineC": [
     {
       "Source": "ConversionEntries",
@@ -1654,6 +2105,115 @@
       }
     }
   ],
+  "AircraftTorpedoW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::AircraftAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::AircraftAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[4]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 25,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 85,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 100,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 4,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "AircraftTorpedoW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 3600,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "AircraftWaterW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::AircraftAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::AircraftAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[2]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 40,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 200,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 50,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 2,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "AircraftWaterW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 3600,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
   "AluminumA": [
     {
       "Source": "ItemDynamicDataFallback",
@@ -1677,6 +2237,102 @@
         "CrateOutput": [],
         "LiquidOutput": [],
         "Duration": 1000.0
+      }
+    }
+  ],
+  "AmbulanceFlameC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory1",
+      "JsonPath": "$[2].Properties.AssemblyItems[9]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "AmbulanceC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "AmbulanceFlameC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "AmbulanceFlameW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory1",
+      "JsonPath": "$[2].Properties.AssemblyItems[10]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "AmbulanceW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "AmbulanceFlameW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
       }
     }
   ],
@@ -1710,6 +2366,347 @@
         "LiquidOutput": [],
         "Duration": 8100,
         "PowerDelta": -12000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ArmoredCar2LargeW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::MotorPool",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::MotorPool",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[9]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "ArmoredCar2TwinW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "ArmoredCar2LargeW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ArmoredCar2MultiW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::ArtilleryFactory",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::ArtilleryFactory",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[10]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 35,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 8,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "ArmoredCar2TwinW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "ArmoredCar2MultiW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ArmoredCarATW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::MotorPool",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::MotorPool",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[6]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "ArmoredCarW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "ArmoredCarATW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ArmoredCarFlameW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::MotorPool",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::MotorPool",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[8]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "ArmoredCarW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "ArmoredCarFlameW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ArmoredCarMobilityW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::MotorPool",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::MotorPool",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[7]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 5,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "ArmoredCarW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "ArmoredCarMobilityW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ArmoredCarOffensiveC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::MotorPool",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::MotorPool",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[0]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "ArmoredCarC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "ArmoredCarOffensiveC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ArmoredCarTwinC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::MotorPool",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::MotorPool",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[1]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "ArmoredCarC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "ArmoredCarTwinC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
         "bConsumeResourceNodes": false
       }
     }
@@ -2055,6 +3052,58 @@
       }
     }
   ],
+  "BattleTankATC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::HeavyTankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::HeavyTankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[2]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 60,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 65,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 45,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 65,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "BattleTankATC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 86400,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
   "BattleTankAmmo": [
     {
       "Source": "ConversionEntries",
@@ -2090,6 +3139,266 @@
         "LiquidOutput": [],
         "Duration": 60,
         "PowerDelta": 0,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "BattleTankC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::HeavyTankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::HeavyTankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[0]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 50,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 30,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 60,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 35,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "BattleTankC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 64800,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "BattleTankDefensiveW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::HeavyTankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::HeavyTankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[3]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 40,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 65,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 30,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 45,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "BattleTankDefensiveW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 79200,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "BattleTankHeavyArtilleryC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::HeavyTankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::HeavyTankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[4]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 150,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 65,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 40,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 85,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "BattleTankHeavyArtilleryC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 86400,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "BattleTankHeavyArtilleryW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::HeavyTankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::HeavyTankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[5]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 150,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 65,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 40,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 85,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "BattleTankHeavyArtilleryW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 86400,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "BattleTankW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::HeavyTankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::HeavyTankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[1]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 50,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 30,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 60,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 35,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "BattleTankW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 64800,
+        "PowerDelta": -8000,
         "bConsumeResourceNodes": false
       }
     }
@@ -2538,6 +3847,49 @@
       }
     }
   ],
+  "ConstructionUtility": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::LightVehicleAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::LightVehicleAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[1]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "Construction",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "ConstructionUtility",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 900,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
   "CopperA": [
     {
       "Source": "ItemDynamicDataFallback",
@@ -2694,6 +4046,59 @@
       }
     }
   ],
+  "DestroyerTankFlameW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::TankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::TankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[3].Value.AssemblyItems[0]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "DestroyerTankW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "DestroyerTankFlameW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 420,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
   "Diesel": [
     {
       "Source": "ItemDynamicDataFallback",
@@ -2755,6 +4160,241 @@
         "LiquidOutput": [],
         "Duration": 90,
         "PowerDelta": -4000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "EmplacedATLargeW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::TankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::TankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[3].Value.AssemblyItems[11]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 135,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "EmplacedATLargeW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "EmplacedAircraftC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::ArtilleryFactory",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::ArtilleryFactory",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[11]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 30,
+            "Limit": 0
+          },
+          {
+            "CodeName": "Facilitymaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 20,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "EmplacedAircraftC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "EmplacedAircraftW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::ArtilleryFactory",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::ArtilleryFactory",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[12]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 30,
+            "Limit": 0
+          },
+          {
+            "CodeName": "Facilitymaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 20,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "EmplacedAircraftW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "EmplacedCannonLargeC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::TankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::TankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[3].Value.AssemblyItems[6]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 135,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "EmplacedCannonLargeC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "EmplacedMultiC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::ArtilleryFactory",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::ArtilleryFactory",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[1]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 3,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "EmplacedMultiC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 600,
+        "PowerDelta": -2000,
         "bConsumeResourceNodes": false
       }
     }
@@ -4075,6 +5715,198 @@
       }
     }
   ],
+  "FieldAT2C": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::MotorPool",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::MotorPool",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[12]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 30,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 20,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "FieldMGC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "FieldAT2C",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "FieldAT2W": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::MotorPool",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::MotorPool",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[13]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 30,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 20,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "FieldMGW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "FieldAT2W",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "FieldATDamageW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::LightVehicleAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::LightVehicleAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[5]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 5,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "FieldATW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "FieldATDamageW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "FieldCannonDamageC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::LightVehicleAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::LightVehicleAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[3]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 5,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "FieldATC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "FieldCannonDamageC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
   "FireRocketAmmo": [
     {
       "Source": "ConversionEntries",
@@ -4296,6 +6128,335 @@
         "CrateOutput": [],
         "LiquidOutput": [],
         "Duration": 50.0
+      }
+    }
+  ],
+  "FortConstructionPart": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::RocketAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::RocketAssembly",
+      "JsonPath": "$[2].Properties.Modifications[5].Value.AssemblyItems[3]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 250,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 225,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 225,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "FortConstructionPart",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "FortGarrisonStationPart": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::RocketAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::RocketAssembly",
+      "JsonPath": "$[2].Properties.Modifications[5].Value.AssemblyItems[8]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 200,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 5,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials11",
+            "Quantity": 35,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "FortGarrisonStationPart",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 1500,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "FortIntelCenterPart": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::RocketAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::RocketAssembly",
+      "JsonPath": "$[2].Properties.Modifications[5].Value.AssemblyItems[6]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 50,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 3,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials11",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "FortIntelCenterPart",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 1500,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "FortLRArtilleryPart": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::RocketAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::RocketAssembly",
+      "JsonPath": "$[2].Properties.Modifications[5].Value.AssemblyItems[5]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 300,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials11",
+            "Quantity": 45,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "FortLRArtilleryPart",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 1500,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "FortLargeRadarPart": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::RocketAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::RocketAssembly",
+      "JsonPath": "$[2].Properties.Modifications[5].Value.AssemblyItems[9]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 50,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 3,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials11",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "FortLargeRadarPart",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 1500,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "FortStructurePart": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::RocketAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::RocketAssembly",
+      "JsonPath": "$[2].Properties.Modifications[5].Value.AssemblyItems[4]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 50,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 40,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials11",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "FortStructurePart",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "FortWeatherStationPart": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::RocketAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::RocketAssembly",
+      "JsonPath": "$[2].Properties.Modifications[5].Value.AssemblyItems[7]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 150,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 150,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 150,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "FortWeatherStationPart",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 1500,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
       }
     }
   ],
@@ -4739,6 +6900,48 @@
       }
     }
   ],
+  "Harvester": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::LightVehicleAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::LightVehicleAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[0]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 90,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 25,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "Harvester",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 900,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
   "HeavyArtilleryAmmo": [
     {
       "Source": "ItemDynamicDataFallback",
@@ -4792,6 +6995,80 @@
         "CrateOutput": [],
         "LiquidOutput": [],
         "Duration": 1000.0
+      }
+    }
+  ],
+  "HeavyTruckC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::LightVehicleAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::LightVehicleAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[6]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 40,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "HeavyTruckC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "HeavyTruckW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::LightVehicleAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::LightVehicleAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[7]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 40,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "HeavyTruckW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
       }
     }
   ],
@@ -5115,6 +7392,596 @@
       }
     }
   ],
+  "LandingCraftOffensiveC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::LightVehicleAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::LightVehicleAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[2]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 5,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 3,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "LandingCraftC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LandingCraftOffensiveC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LargeFieldATC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::WeaponsPlatformAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::WeaponsPlatformAssembly",
+      "JsonPath": "$[2].Properties.Modifications[4].Value.AssemblyItems[3]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "FieldATC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LargeFieldATC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 420,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LargeFieldCannonW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::WeaponsPlatformAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::WeaponsPlatformAssembly",
+      "JsonPath": "$[2].Properties.Modifications[4].Value.AssemblyItems[4]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "FieldCannonW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LargeFieldCannonW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 420,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LargeFieldMortarC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::WeaponsPlatformAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::WeaponsPlatformAssembly",
+      "JsonPath": "$[2].Properties.Modifications[4].Value.AssemblyItems[5]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "FieldMortarC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LargeFieldMortarC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 420,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LargeFieldMultiW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::ArtilleryFactory",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::ArtilleryFactory",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[9]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 3,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LargeFieldMultiW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LargeShipAircraftC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory3",
+      "Facility": "BPFacilityVehicleFactory3",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory3",
+      "JsonPath": "$[2].Properties.AssemblyItems[10]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "ShipPart1",
+            "Quantity": 16,
+            "Limit": 0
+          },
+          {
+            "CodeName": "ShipPart2",
+            "Quantity": 20,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LargeShipAircraftC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 36000,
+        "PowerDelta": -10000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LargeShipBaseShip": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory3",
+      "Facility": "BPFacilityVehicleFactory3",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory3",
+      "JsonPath": "$[2].Properties.AssemblyItems[0]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "ShipPart1",
+            "Quantity": 8,
+            "Limit": 0
+          },
+          {
+            "CodeName": "ShipPart2",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LargeShipBaseShip",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 14400,
+        "PowerDelta": -10000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LargeShipDestroyerC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory3",
+      "Facility": "BPFacilityVehicleFactory3",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory3",
+      "JsonPath": "$[2].Properties.AssemblyItems[3]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "ShipPart1",
+            "Quantity": 12,
+            "Limit": 0
+          },
+          {
+            "CodeName": "ShipPart2",
+            "Quantity": 12,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LargeShipDestroyerC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 21600,
+        "PowerDelta": -10000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LargeShipDestroyerW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory3",
+      "Facility": "BPFacilityVehicleFactory3",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory3",
+      "JsonPath": "$[2].Properties.AssemblyItems[8]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "ShipPart1",
+            "Quantity": 12,
+            "Limit": 0
+          },
+          {
+            "CodeName": "ShipPart2",
+            "Quantity": 12,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LargeShipDestroyerW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 21600,
+        "PowerDelta": -10000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LargeShipResourceShip": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory3",
+      "Facility": "BPFacilityVehicleFactory3",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory3",
+      "JsonPath": "$[2].Properties.AssemblyItems[1]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "ShipPart1",
+            "Quantity": 8,
+            "Limit": 0
+          },
+          {
+            "CodeName": "ShipPart2",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LargeShipResourceShip",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 14400,
+        "PowerDelta": -10000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LargeShipStorageShip": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory3",
+      "Facility": "BPFacilityVehicleFactory3",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory3",
+      "JsonPath": "$[2].Properties.AssemblyItems[2]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "ShipPart1",
+            "Quantity": 25,
+            "Limit": 0
+          },
+          {
+            "CodeName": "ShipPart2",
+            "Quantity": 25,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LargeShipStorageShip",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 28800,
+        "PowerDelta": -10000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LargeShipSubmarineC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory3",
+      "Facility": "BPFacilityVehicleFactory3",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory3",
+      "JsonPath": "$[2].Properties.AssemblyItems[9]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "ShipPart1",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "ShipPart2",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LargeShipSubmarineC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 21600,
+        "PowerDelta": -10000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LargeShipSubmarineW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory3",
+      "Facility": "BPFacilityVehicleFactory3",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory3",
+      "JsonPath": "$[2].Properties.AssemblyItems[4]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "ShipPart1",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "ShipPart2",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LargeShipSubmarineW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 21600,
+        "PowerDelta": -10000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
   "LightAAAmmo": [
     {
       "Source": "ItemDynamicDataFallback",
@@ -5202,6 +8069,271 @@
         "CrateOutput": [],
         "LiquidOutput": [],
         "Duration": 200.0
+      }
+    }
+  ],
+  "LightTankArtilleryW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::TankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::TankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[3].Value.AssemblyItems[8]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 3,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 3,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "LightTankW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LightTankArtilleryW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LightTankDefensiveW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::TankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::TankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[3].Value.AssemblyItems[7]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 8,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "LightTankW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LightTankDefensiveW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LightTankFlameC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::TankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::TankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[3].Value.AssemblyItems[1]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 8,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "LightTankC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LightTankFlameC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LightTankMobilityC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::TankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::TankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[3].Value.AssemblyItems[3]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 5,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "LightTankC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LightTankMobilityC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "LightTankOffensiveC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::TankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::TankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[3].Value.AssemblyItems[2]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 8,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "LightTankC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "LightTankOffensiveC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
       }
     }
   ],
@@ -5749,6 +8881,43 @@
       }
     }
   ],
+  "MaterialPlatform": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory1",
+      "JsonPath": "$[2].Properties.AssemblyItems[0]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "Cloth",
+            "Quantity": 25,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "MaterialPlatform",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 15,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
   "MedicUniformC": [
     {
       "Source": "ConversionEntries",
@@ -5813,6 +8982,440 @@
         "LiquidOutput": [],
         "Duration": 8100,
         "PowerDelta": -12000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "MediumTank2IndirectW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::WeaponsPlatformAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::WeaponsPlatformAssembly",
+      "JsonPath": "$[2].Properties.Modifications[4].Value.AssemblyItems[1]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 60,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "MediumTank2W",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "MediumTank2IndirectW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "MediumTank2MultiW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::TankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::TankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[3].Value.AssemblyItems[10]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 5,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "MediumTank2W",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "MediumTank2MultiW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 420,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "MediumTank2RangeW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::TankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::TankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[3].Value.AssemblyItems[12]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "MediumTank2W",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "MediumTank2RangeW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 420,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "MediumTank2TwinC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::TankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::TankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[3].Value.AssemblyItems[5]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "MediumTank2C",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "MediumTank2TwinC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 420,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "MediumTankATW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::WeaponsPlatformAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::WeaponsPlatformAssembly",
+      "JsonPath": "$[2].Properties.Modifications[4].Value.AssemblyItems[2]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 25,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 25,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "MediumTankW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "MediumTankATW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "MediumTankLargeC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::WeaponsPlatformAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::WeaponsPlatformAssembly",
+      "JsonPath": "$[2].Properties.Modifications[4].Value.AssemblyItems[0]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "MediumTankC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "MediumTankLargeC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "MediumTankOffensiveC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::TankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::TankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[3].Value.AssemblyItems[4]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 12,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 8,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "MediumTankC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "MediumTankOffensiveC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 420,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "MediumTankSiegeW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::TankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::TankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[3].Value.AssemblyItems[9]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 5,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 8,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "MediumTankW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "MediumTankSiegeW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 420,
+        "PowerDelta": -2000,
         "bConsumeResourceNodes": false
       }
     }
@@ -6234,6 +9837,97 @@
         "LiquidOutput": [],
         "Duration": 30,
         "PowerDelta": 0,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "MortarTankC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::TankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::TankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[3].Value.AssemblyItems[13]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "LightTank2InfantryC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "MortarTankC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 180,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "MotorcycleOffensiveC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory1",
+      "JsonPath": "$[2].Properties.AssemblyItems[1]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "MotorcycleC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "MotorcycleOffensiveC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 180,
+        "PowerDelta": -2000,
         "bConsumeResourceNodes": false
       }
     }
@@ -7808,6 +11502,167 @@
       }
     }
   ],
+  "RocketPartBottom": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::RocketAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::RocketAssembly",
+      "JsonPath": "$[2].Properties.Modifications[5].Value.AssemblyItems[0]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials11",
+            "Quantity": 75,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 55,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 150,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 25,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "RocketPartBottom",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 86400,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "RocketPartCenter": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::RocketAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::RocketAssembly",
+      "JsonPath": "$[2].Properties.Modifications[5].Value.AssemblyItems[1]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials11",
+            "Quantity": 75,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 65,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 25,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 125,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "RocketPartCenter",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 86400,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "RocketPartTop": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::RocketAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::RocketAssembly",
+      "JsonPath": "$[2].Properties.Modifications[5].Value.AssemblyItems[2]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 75,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials10",
+            "Quantity": 165,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 45,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "RocketPartTop",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 86400,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
   "RpgAmmo": [
     {
       "Source": "ItemDynamicDataFallback",
@@ -8097,6 +11952,107 @@
       }
     }
   ],
+  "ScoutTankMultiW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::ArtilleryFactory",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::ArtilleryFactory",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[6]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 5,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 3,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "ScoutTankW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "ScoutTankMultiW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ScoutTankOffensiveW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::LightVehicleAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::LightVehicleAssembly",
+      "JsonPath": "$[2].Properties.Modifications[2].Value.AssemblyItems[4]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 5,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "ScoutTankW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "ScoutTankOffensiveW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
   "ScoutUniformC": [
     {
       "Source": "ConversionEntries",
@@ -8161,6 +12117,339 @@
         "LiquidOutput": [],
         "Duration": 8100,
         "PowerDelta": -12000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ScoutVehicleOffensiveC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::MotorPool",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::MotorPool",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[5]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 3,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "ScoutVehicleMobilityC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "ScoutVehicleOffensiveC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 180,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ScoutVehicleOffensiveW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::MotorPool",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::MotorPool",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[10]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 3,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "ScoutVehicleW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "ScoutVehicleOffensiveW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 180,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ScoutVehicleUtilityC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::MotorPool",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::MotorPool",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[4]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 3,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "ScoutVehicleMobilityC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "ScoutVehicleUtilityC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 180,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ScoutVehicleUtilityW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::MotorPool",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::MotorPool",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[11]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 3,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "ScoutVehicleW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "ScoutVehicleUtilityW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 180,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ShipPart1": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::ShipAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::ShipAssembly",
+      "JsonPath": "$[2].Properties.Modifications[6].Value.AssemblyItems[0]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 60,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 2,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 2,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 4,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials11",
+            "Quantity": 4,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "ShipPart1",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 1500,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ShipPart2": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::ShipAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::ShipAssembly",
+      "JsonPath": "$[2].Properties.Modifications[6].Value.AssemblyItems[1]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 2,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials11",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "ShipPart2",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "ShipPart3": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::ShipAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::ShipAssembly",
+      "JsonPath": "$[2].Properties.Modifications[6].Value.AssemblyItems[2]",
+      "OutputType": "Structure",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 20,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [],
+        "StructureOutput": [
+          {
+            "CodeName": "ShipPart3",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "Duration": 43200,
+        "PowerDelta": -2000,
         "bConsumeResourceNodes": false
       }
     }
@@ -8292,6 +12581,241 @@
         "CrateOutput": [],
         "LiquidOutput": [],
         "Duration": 100.0
+      }
+    }
+  ],
+  "SmallTrainEngine": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory1",
+      "JsonPath": "$[2].Properties.AssemblyItems[6]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 125,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 20,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "SmallTrainEngine",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 900,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "SmallTrainLiquid": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory1",
+      "JsonPath": "$[2].Properties.AssemblyItems[11]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 35,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 5,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "SmallTrainLiquid",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "SmallTrainMaterial": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory1",
+      "JsonPath": "$[2].Properties.AssemblyItems[8]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 35,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "SmallTrainMaterial",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "SmallTrainResource": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory1",
+      "JsonPath": "$[2].Properties.AssemblyItems[7]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 35,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "SmallTrainResource",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "SmallTrainShipping": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory1",
+      "JsonPath": "$[2].Properties.AssemblyItems[12]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 35,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 5,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "SmallTrainShipping",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
       }
     }
   ],
@@ -8910,6 +13434,120 @@
       }
     }
   ],
+  "SuperTankC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::HeavyTankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::HeavyTankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[6]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 275,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 105,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 105,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 95,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 3,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "SuperTankC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 172800,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "SuperTankW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::HeavyTankAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::HeavyTankAssembly",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[7]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 275,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 105,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 105,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 95,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 3,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "SuperTankW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 172800,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
   "SurfaceWaterMine": [
     {
       "Source": "ConversionEntries",
@@ -9077,6 +13715,155 @@
       }
     }
   ],
+  "TanketteFlameC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::MotorPool",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::MotorPool",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[3]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "TanketteC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TanketteFlameC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TanketteMultiC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::ArtilleryFactory",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::ArtilleryFactory",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[7]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 3,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "TanketteC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TanketteMultiC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 600,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TanketteOffensiveC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::MotorPool",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::MotorPool",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[2]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 15,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "TanketteC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TanketteOffensiveC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
   "TorpedoAmmo": [
     {
       "Source": "ConversionEntries",
@@ -9112,6 +13899,454 @@
         "LiquidOutput": [],
         "Duration": 240,
         "PowerDelta": -6000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TrainCaboose": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory2",
+      "JsonPath": "$[2].Properties.AssemblyItems[4]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TrainCaboose",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 1800,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TrainCoal": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory2",
+      "JsonPath": "$[2].Properties.AssemblyItems[1]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TrainCoal",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 1800,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TrainCombatCarC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::TrainAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::TrainAssembly",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[0]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 30,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 30,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 30,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TrainCombatCarC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 1800,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TrainCombatCarW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::TrainAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::TrainAssembly",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[1]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 30,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 30,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 30,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TrainCombatCarW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 1800,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TrainEngine": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory2",
+      "JsonPath": "$[2].Properties.AssemblyItems[0]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 200,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 60,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 50,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TrainEngine",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 21600,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TrainFlatbed": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory2",
+      "JsonPath": "$[2].Properties.AssemblyItems[3]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TrainFlatbed",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 1800,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TrainHospital": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::TrainAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::TrainAssembly",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[2]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 60,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 45,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 55,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 40,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 2,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TrainHospital",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 129600,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TrainInfantry": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory2",
+      "JsonPath": "$[2].Properties.AssemblyItems[2]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 20,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 15,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 5,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TrainInfantry",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 1800,
+        "PowerDelta": -8000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TrainLRArtillery": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory2",
+      "Facility": "BPFacilityVehicleFactory2",
+      "Modification": "EFortModificationType::TrainAssembly",
+      "ProductionLocation": "BPFacilityVehicleFactory2 / EFortModificationType::TrainAssembly",
+      "JsonPath": "$[2].Properties.Modifications[0].Value.AssemblyItems[3]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials3",
+            "Quantity": 285,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 95,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials7",
+            "Quantity": 105,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials8",
+            "Quantity": 105,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials9",
+            "Quantity": 35,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials11",
+            "Quantity": 45,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TrainLRArtillery",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 259200,
+        "PowerDelta": -8000,
         "bConsumeResourceNodes": false
       }
     }
@@ -9172,6 +14407,231 @@
         "LiquidOutput": [],
         "Duration": 25,
         "PowerDelta": 0,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TruckDefensiveW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory1",
+      "JsonPath": "$[2].Properties.AssemblyItems[4]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "TruckW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TruckDefensiveW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TruckMobilityC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory1",
+      "JsonPath": "$[2].Properties.AssemblyItems[2]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "TruckC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TruckMobilityC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TruckMobilityW": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory1",
+      "JsonPath": "$[2].Properties.AssemblyItems[5]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "TruckW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TruckMobilityW",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TruckMultiC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": "EFortModificationType::ArtilleryFactory",
+      "ProductionLocation": "BPFacilityVehicleFactory1 / EFortModificationType::ArtilleryFactory",
+      "JsonPath": "$[2].Properties.Modifications[1].Value.AssemblyItems[0]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials2",
+            "Quantity": 70,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 10,
+            "Limit": 0
+          },
+          {
+            "CodeName": "FacilityMaterials6",
+            "Quantity": 8,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "TruckC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TruckMultiC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
+        "bConsumeResourceNodes": false
+      }
+    }
+  ],
+  "TruckOffensiveC": [
+    {
+      "Source": "AssemblyItems",
+      "ObjectPath": "War/Content/Blueprints/Structures/Facilities/BPFacilityVehicleFactory1",
+      "Facility": "BPFacilityVehicleFactory1",
+      "Modification": null,
+      "ProductionLocation": "BPFacilityVehicleFactory1",
+      "JsonPath": "$[2].Properties.AssemblyItems[3]",
+      "OutputType": "Vehicle",
+      "Conversion": {
+        "ItemInput": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 10,
+            "Limit": 0
+          }
+        ],
+        "CrateInput": [],
+        "LiquidInput": [],
+        "VehicleInput": [
+          {
+            "CodeName": "TruckC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "ItemOutput": [],
+        "CrateOutput": [],
+        "LiquidOutput": [],
+        "VehicleOutput": [
+          {
+            "CodeName": "TruckOffensiveC",
+            "Quantity": 1,
+            "Limit": 0
+          }
+        ],
+        "StructureOutput": [],
+        "Duration": 300,
+        "PowerDelta": -2000,
         "bConsumeResourceNodes": false
       }
     }

@@ -48,7 +48,7 @@ public sealed class CatalogBuilder
 
     private static readonly string[][] VehicleDynamicProperties =
     {
-        P("ResourceRequirements"), P("MaxHealth"), P("MinorDamagePercent"), P("MajorDamagePercent"),
+        P("ResourceRequirements"), P("ResourceAmounts"), P("AltResourceAmounts"), P("MaxHealth"), P("MinorDamagePercent"), P("MajorDamagePercent"),
         P("RepairCost"), P("ResourcesPerBuildCycle"), P("ItemHolderCapacity"), P("FuelCapacity"),
         P("FuelConsumptionPerSecond"), P("SwimmingFuelConsumptionModifier"), P("DefaultSurfaceMovementRate"),
         P("OffroadSnowPenalty"), P("ReverseSpeedModifier"), P("RotationRate"), P("RotationSpeedCuttoff"),
@@ -59,7 +59,7 @@ public sealed class CatalogBuilder
 
     private static readonly string[][] StructureDynamicProperties =
     {
-        P("MaxHealth"), P("ResourceRequirements"), P("DecayStartHours"), P("DecayDurationHours"),
+        P("MaxHealth"), P("ResourceRequirements"), P("ResourceAmounts"), P("AltResourceAmounts"), P("DecayStartHours"), P("DecayDurationHours"),
         P("RepairCost"), P("StructuralIntegrity"), P("StoredItemCapacity"), P("RamDamageReceivedFlags"),
         P("bCanBeHarvested"), P("IsVaultable"), P("bIsDamagedWhileDrivingOver")
     };

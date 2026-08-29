@@ -16,6 +16,7 @@ mods/*
 # Raw extracted Unreal data
 output/raw/*
 !output/raw/.gitkeep
+*.zip
 
 # --------------------------------------------------
 # Public generated dataset

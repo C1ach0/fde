@@ -6,7 +6,7 @@
     ]
   },
   "raw": {
-    "enabled": false
+    "enabled": true
   },
   "assets": {
     "icons": true,
